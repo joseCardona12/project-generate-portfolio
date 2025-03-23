@@ -9,7 +9,9 @@ export default function PublicLayout({
   return (
     <>
       <Header />
-      <main className="w-[100vw] p-4 h-">{children}</main>
+      <main className="w-[100vw] p-4 bg-[var(--color-black)] text-[var(--color-gray)]">
+        {children}
+      </main>
       <Footer />
     </>
   );
